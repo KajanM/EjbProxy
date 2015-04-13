@@ -1,4 +1,4 @@
-package com.arachchi.ejb.core.ejb.remoting;
+package com.arachchi.ejb.core.remote.ejb;
 
 import com.arachchi.ejbproxy.core.ejb.EjbService;
 

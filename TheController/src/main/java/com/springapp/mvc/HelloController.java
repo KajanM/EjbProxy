@@ -12,7 +12,8 @@ import javax.ejb.EJB;
 @RequestMapping("/")
 public class HelloController {
 
-
+	@EJB
+	EjbService ejbService;
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
