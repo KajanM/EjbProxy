@@ -7,7 +7,7 @@ import javax.ejb.Stateless;
 /**
  * Created by nuran on 4/13/15.
  */
-@Stateless
+//@Stateless
 public class ExampleTestImpl implements ExampleTest{
     @Override
     public void test() {

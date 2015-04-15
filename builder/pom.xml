@@ -22,13 +22,6 @@
 
         <dependency>
             <groupId>com.arachchi</groupId>
-            <artifactId>ejb1</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>ejb</type>
-        </dependency>
-
-        <dependency>
-            <groupId>com.arachchi</groupId>
             <artifactId>ejbproxy</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>ejb</type>
@@ -62,10 +55,6 @@
                         <ejbModule>
                             <groupId>com.arachchi</groupId>
                             <artifactId>ejb</artifactId>
-                        </ejbModule>
-                        <ejbModule>
-                            <groupId>com.arachchi</groupId>
-                            <artifactId>ejb1</artifactId>
                         </ejbModule>
                         <ejbModule>
                             <groupId>com.arachchi</groupId>
