@@ -7,7 +7,7 @@
 		                        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <jee:jndi-lookup id="ejbService"
-                     jndi-name="java:app/ejb-1.0-SNAPSHOT/EjbServiceBean!com.arachchi.ejb.core.remote.ejb.EjbServiceRemote"
+                     jndi-name="java:app/ejb-1.0-SNAPSHOT/EjbServiceBean!com.arachchi.ejbproxy.core.ejb.EjbServiceRemote"
                      resource-ref="true" cache="false"
                      proxy-interface="com.arachchi.ejbproxy.core.ejb.EjbService"/>
 

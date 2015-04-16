@@ -1,10 +1,9 @@
 package com.arachchi.ejb.core.remote.ejb;
 
-import com.arachchi.ejb.core.service.ExampleTest;
+import com.arachchi.ejbproxy.core.ejb.EjbServiceLocal;
+import com.arachchi.ejbproxy.core.ejb.EjbServiceRemote;
 
 import javax.ejb.Stateless;
-import javax.inject.Inject;
-import javax.inject.Named;
 
 /**
  * Created by nuran on 4/13/15.

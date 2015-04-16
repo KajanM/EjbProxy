@@ -52,14 +52,6 @@
                             <groupId>com.arachchi</groupId>
                             <artifactId>thecontroller</artifactId>
                         </webModule>
-                        <ejbModule>
-                            <groupId>com.arachchi</groupId>
-                            <artifactId>ejb</artifactId>
-                        </ejbModule>
-                        <ejbModule>
-                            <groupId>com.arachchi</groupId>
-                            <artifactId>ejbproxy</artifactId>
-                        </ejbModule>
                     </modules>
                 </configuration>
             </plugin>
