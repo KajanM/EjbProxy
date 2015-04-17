@@ -13,12 +13,12 @@ import javax.inject.Inject;
 @Stateless
 public class EjbServiceBean implements EjbServiceLocal, EjbServiceRemote {
 
-	//@Inject
-	//private ExampleTest exampleTest;
+	@Inject
+	private ExampleTest exampleTest;
 
 
 	@Override
 	public void test() {
-		//exampleTest.test();
+		exampleTest.test();
 	}
 }
