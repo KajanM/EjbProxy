@@ -10,6 +10,7 @@
         <module>TheController</module>
         <module>EJBProxy</module>
         <module>EJB</module>
+        <module>webService</module>
         <!--<module>EJB1</module>-->
         <module>builder</module>
     </modules>
@@ -73,6 +74,13 @@
                 <artifactId>ejbproxy</artifactId>
                 <version>1.0-SNAPSHOT</version>
                 <type>jar</type>
+            </dependency>
+
+            <dependency>
+                <groupId>com.arachchi</groupId>
+                <artifactId>webservice</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>war</type>
             </dependency>
 
             <dependency>

@@ -1,0 +1,43 @@
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+
+    <display-name>Web Application</display-name>
+    <servlet>
+
+        <servlet-name>RestServlet</servlet-name>
+
+        <init-param>
+            <param-name>com.sun.jersey.spi.container.ContainerRequestFilters</param-name>
+            <param-value>
+                com.sun.jersey.api.container.filter.LoggingFilter;com.proavos.onesky.wsbe.rest.security.AuthFilter
+            </param-value>
+        </init-param>
+        <!--
+
+        <init-param>
+
+        <param-name>com.sun.jersey.config.property.packages</param-name><param-value>com.rest.test</param-value></init-param> -->
+
+        <load-on-startup>2</load-on-startup>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RestServlet</servlet-name>
+        <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>resteasy.scan</param-name>
+        <param-value>false</param-value>
+    </context-param>
+    <context-param>
+        <param-name>resteasy.scan.providers</param-name>
+        <param-value>false</param-value>
+    </context-param>
+    <context-param>
+        <param-name>resteasy.scan.resources</param-name>
+        <param-value>false</param-value>
+    </context-param>
+</web-app>
